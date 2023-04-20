@@ -12,50 +12,58 @@ function App() {
     {
       id: 1,
       title: "Air Jordan Retro High OG Twist Feminino",
-      src: "jordan",
-      preco: 1199.99
+      img: "img/jordan/1.svg",
+      preco: 1199.99,
+      link: "https://pag.ae/7ZjDDm1jq",
     },
     {
       id: 2,
       title: "Air Jordan High Zoom Tropical Twist",
-      src: "jordan",
-      preco: 1199.99
+      img: "img/jordan/2.svg",
+      preco: 1199.99,
+      link: "https://donate.stripe.com/test_eVa0336zTbI561W3ce",
     },
     {
       id: 3,
       title: "Air Jordan Retro High Cour Purple",
-      src: "jordan",
-      preco: 1199.99
+      img: "img/jordan/3.svg",
+      preco: 1199.99,
+      link: "https://pag.ae/7ZjDFHyVq",
     },
     {
       id: 4,
       title: "Air Jordan Mid Light Smoke Grey ",
-      src: "jordan",
-      preco: 1199.99
+      img: "img/jordan/4.svg",
+      preco: 1199.99,
+      link: "https://pag.ae/7ZjDDm1jq",
     },
     {
       id: 5,
       title: "Air Jordan Mid Black Noble Red",
-      src: "jordan",
-      preco: 1199.99
+      img: "img/jordan/5.svg",
+      preco: 1199.99,
+      link: "https://pag.ae/7ZjDDm1jq",
     },
     {
       id: 6,
       title: "Air Jordan Mid Bright Citrus",
-      src: "jordan",
-      preco: 1199.99
+      img: "img/jordan/6.svg",
+      preco: 1199.99,
+      link: "https://pag.ae/7ZjDDm1jq",
     },
     {
       id: 7,
       title: "Air Jordan Mid Grey Camo",
-      src: "jordan",
-      preco: 1199.99
+      img: "img/jordan/7.svg",
+      preco: 1199.99,
+      link: "https://pag.ae/7ZjDDm1jq",
     },
     {
       id: 8,
       title: "Air Jordan Mid Carbon Fiber",
-      src: "jordan",
-      preco: 1199.99
+      img: "img/jordan/8.svg",
+      preco: 1199.99,
+      link: "https://pag.ae/7ZjDDm1jq",
     },
   ]
 
@@ -77,7 +85,7 @@ function App() {
       <section className='produtos'>
         {
           produto.map((item) => (
-            <Card key={item.id} img={`${item.src}/${item.id}`} title={item.title} preco={item.preco} />
+            <Card key={item.id} img={item.img} title={item.title} preco={item.preco} link={item.link} />
           ))
         }
       </section>
