@@ -16,13 +16,26 @@
     text-align: center;
 }
 
+.card > img {
+    transition: all 0.3s ease;
+
+}
+
 .card:hover{
     background-color: #fff;
 
     border-radius: 30px;
 
-
     -webkit-box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
 }
+
+.card:hover > img {
+
+    rotate: -17deg;
+    scale: 1.2;
+
+
+}
+
