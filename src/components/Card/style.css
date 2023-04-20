@@ -1,0 +1,28 @@
+.card {
+    padding: 50px;
+    margin: 5px;
+    background-color: #EBE9EA;
+    cursor: pointer;
+    text-align: center;
+    min-width: 290px;
+    max-width: 90%;
+    border-radius: 10px;
+
+    transition: all 0.3s ease;
+}
+
+
+.card > p {
+    text-align: center;
+}
+
+.card:hover{
+    background-color: #fff;
+
+    border-radius: 30px;
+
+
+    -webkit-box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
+}
