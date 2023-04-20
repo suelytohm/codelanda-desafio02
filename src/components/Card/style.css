@@ -7,7 +7,6 @@
     min-width: 290px;
     max-width: 90%;
     border-radius: 10px;
-
     transition: all 0.3s ease;
 }
 
@@ -18,24 +17,26 @@
 
 .card > img {
     transition: all 0.3s ease;
+}
 
+.card > a  {
+    background-color: #03050A;
+    color: #fff;
+    padding: 5px 50px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .card:hover{
     background-color: #fff;
-
     border-radius: 30px;
-
     -webkit-box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 31px -11px rgba(0,0,0,0.75);
 }
 
 .card:hover > img {
-
     rotate: -17deg;
     scale: 1.2;
-
-
 }
 
